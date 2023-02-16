@@ -1,0 +1,333 @@
+body {
+    background-image: url(../imagens/wallpaperFundos/wallpaperMobile2.png);
+    background-size: cover;
+}
+
+.background{
+    width: 90%;
+    margin: auto;
+    background: rgba(117, 117, 117, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    border-radius: 10px;
+    border: 1px solid transparent;
+  }
+
+
+
+.logoGP {
+    width: 110px;
+    height: 110px;
+}
+
+#navbarItems {
+    padding-right: 3%;
+}
+
+#navbarItems li a { 
+    font-size: 26px;
+    transition: 0ms ease; 
+}
+
+#navbarItems li a:hover {
+    background-image: linear-gradient(to right,#fff,#fff);
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+#btnCVNav {
+    display: none;
+}
+
+
+/* Entrada Perfil */
+
+#entradaPerfil {
+    height: 45vh;
+}
+
+#entradaPerfil img {
+    width: 300px;
+    height: 300px;
+} 
+
+#entradaPerfil h1 {
+    font-size: 40px;
+    line-height: 45px;
+    padding-bottom: 5%;
+}
+
+#entradaPerfil p {
+    width: 490px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+/* About */
+
+#about{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 5% ;
+    margin: 5% 0;
+}
+
+
+.aboutFoto, .aboutTexto {
+    display: grid;
+}
+
+/* .aboutTexto{
+    vertical-align: top;
+    padding: 20px 0 0 40px;
+} */
+
+#about img{
+    display: none;
+}
+
+
+#about h1 {
+    width: 300px;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 55px;
+}
+
+#about p {
+    width: 750px;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 40px;
+    color: #FFFFFF;
+    padding: 10px 0 ;
+}
+
+#btnCVAbout {
+    background: linear-gradient(90deg, #7248D2 10%, #F64D54 100%);
+    border: none;
+    padding: 15px 40px;
+    margin: 4% 25%;
+    border-radius: 15px;
+    font-size: 20px;
+    text-align: center;
+    transition: 500ms ease;
+}
+
+#btnCVAbout:hover {
+    font-size: 20px;
+}
+
+/* projetos */
+
+#projetos{
+    width: 100%;
+    padding-top: 10%;
+}
+
+
+#projetos .projetosTexto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#projetos .navegacaoProjetos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#projetos h1 {
+    width: 250px;
+    padding: 10px 0 0 0;
+    font-family: 'Lobster';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    color: #FFFFFF;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(to right, #7248d2, #f64d54);
+    border-image-slice: 1;
+    margin-bottom: 20px;
+}
+
+
+.sliderProjetos .slide {
+    margin-top: 0px;
+    transform: scale(0.8);
+    border-left: 5px solid transparent; 
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)) padding-box,
+    linear-gradient(to bottom, #7248D2, #F64D54) border-box;
+    transition: 700ms;
+    -webkit-transition: 700ms;
+    -moz-transition: 700ms;
+    -o-transition: 700ms;
+    outline: none;
+    cursor: pointer;
+}
+  
+  .sliderProjetos .slide.slick-center{
+    transform: scale(1.1);
+  }
+  
+.sliderProjetos .slide:hover{
+    transform: scale(1);
+}
+
+
+  
+.nomeProjeto {
+    padding: 15px 50px;
+    font-size: 19px;
+    font-style: normal;  
+    margin: 3%;
+}
+
+.nomeProjeto:hover{
+    font-size: 19px;
+}
+
+/* tecnologias */
+
+#tecnologias .tecnologiasTexto h1 {
+    width: 450px;
+    padding: 10px 0 0 0;
+    font-size: 45px;
+    line-height: 50px;
+}
+
+
+.content_testimonial-1 .picto {
+    display: none;
+}
+
+.content_testimonial-1 h1 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+.content_testimonial-1 p {
+    width: 100%;
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .label_testimonial-1 {
+    font-size: 1.5rem;
+  }
+
+.content_testimonial-2 .picto {
+    display: none;
+}
+
+.content_testimonial-2 h1 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  .content_testimonial-2 p {
+    width: 100%;
+    font-size: 25px;
+    line-height: 30px;
+  } 
+
+  .label_testimonial-2 {
+    font-size: 1.5rem;
+  }
+
+.content_testimonial-3 .picto {
+    display: none;
+}
+
+.content_testimonial-3 h1 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+.content_testimonial-3 p {
+    width: 100%;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .label_testimonial-3 {
+    font-size: 1.5rem;
+  }
+
+.content_testimonial-4 .picto {
+    display: none;
+}
+
+.content_testimonial-4 h1 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+.content_testimonial-4 p {
+    width: 100%;
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .label_testimonial-4 {
+    font-size: 1.5rem;
+  }
+
+.content_testimonial-5 .picto {
+    display: none;
+}
+
+.content_testimonial-5 h1 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+.content_testimonial-5 p {
+    width: 100%;
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .label_testimonial-5 {
+    font-size: 1.5rem;
+  }
+
+
+.contatoTexto h1 {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.contatoTexto p {
+    font-size: 25px;
+    line-height: 40px;
+}
+
+#contatoLogo {
+    display: none;
+}
+
+.logoImgs img{
+    width: 35px;
+    height: 35px;
+    transition: 800ms;
+  }
+
+.logoImgs img:hover{
+    width: 35px;
+    height: 35px;
+}

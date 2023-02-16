@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/styleAboutProjetosTecnologias.css">
+    <link rel="stylesheet" media="screen and (max-width: 1000px)" href="./css/mobile.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="icon" href="./imagens/Logos/logoGP.png">
+    <title>Portfólio - Gabriel Pauletti</title>
+</head>
+<body>
+    <div id="navbar">
+        <div class="navbarContainer">
+                  
+            <ul id="logoGP"><li><a href="https://egeapauletti.github.io/portfolioWeb/"><img src="../imagens/Logos/logoGP.png" alt="Logo de Gabriel Pauletti Egea" class="logoGP"></a></li></ul>
+            <ul id="navbarItems">
+                <li><a href="#entradaPerfil">home</a></li>
+                <li><a href="#about">sobre</a></li>
+                <li><a href="#projetos">projetos</a></li>
+                <li><a href="#tecnologias">tecnologias</a></li>
+                <li><a href="#contato">contato</a></li>
+            </ul>
+            <buttom id="btnCVNav">Download CV</buttom>
+        </div>
+    </div>
+    <div class="popupFundo">
+      <div class="popup">
+        <div class="popupClose">
+          <button><img src="./imagens/Logos/cancelar.png" alt=""></button>
+        </div>
+        <div class="popupContent">
+            <h1>Download do Curriculo</h1>
+            <p>Seleciona a forma de Download que deseja:</p>
+            <ul>
+              <li><a href="#">Download via Link Direto</a></li>
+              <li><a href="#">Download via MediaFire</a></li>
+              <li><a href="#">Download via Mega</a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+
+    <header id="entradaPerfil">
+        <div class="entradaPerfilContainer">
+            <img src="./imagens/fotos/fotoPerfilEntrada.jpg" alt="Foto de perfil de Gabriel Pauletti Egea" class="entradaPerfilFoto">
+            <h1>Gabriel Pauletti Egea</h1>
+            <p>
+              Bem vindo, este é meu Portfólio, nele busco aprensentar eu e os meus projetos. Aqui você vera tudo que desenvolvi e como.
+            </p>
+        </div>
+    </header>
+    <div class="background">
+        <section id="about">
+            <div class="aboutContainer">
+                <div class="aboutFoto">
+                    <img src="./imagens/fotos/fotoSobre.jpeg" alt="Foto de Gabriel Pauletti Egea" id="sobreFoto">
+                </div> 
+                <div class="aboutTexto">
+                    <h1>Sobre Mim</h1>
+                    <p> Sou apaixonado por tecnologia. Desde pequeno sempre adorei vídeo games e computadores, e com o passar do tempo mais aumentava minha curiosidade de saber como eram desenvolvidos os jogos, programas e sites que eu utilizava com isso aos 12 tive a oportunidade de fazer um curso de banco de dados e Softwares e me apaixonei pela área de tecnologia aos 17 comecei fazer cursos pela Plataforma Alura voltados ao desenvolvimento Web pois foi a área que me interessei logo de cara.<br> Terminando o Ensino Médio iniciei uma faculdade de Análise e Desenvolvimento de Sistemas onde só deixou mais claro que eu acertei qual carreira profissional seguir, tenho vontade de conhecer diversas áreas da programação, Desenvolvimento Web e Mobile, Desenvolver Softwares de Automações ou mesmo outros como de segurança, percebi que sou louco por tecnologia.</p>
+                    <button id="btnCVAbout">Download CV</button>
+                </div>
+            </div>
+        </section>
+
+            <section id="projetos">
+                <div class="projetosContainer">
+
+                    <div class="projetosTexto">
+                        <h1>Meus Projetos</h1>
+                    </div>
+
+                    <div class="sliderProjetos">  
+                    <img data-name="projeto-1" src="./imagens/slider/EmBreve2.png" alt="" class="slide">
+                    <img data-name="projeto-2" src="./imagens/slider/EmBreve2.png" alt="" class="slide">
+                    <img data-name="projeto-3" src="./imagens/slider/EmBreve2.png" alt="" class="slide">
+                    <img data-name="projeto-4" src="./imagens/slider/EmBreve2.png" alt="" class="slide">
+                    <img data-name="projeto-5" src="./imagens/slider/EmBreve2.png" alt="" class="slide">
+                    <img data-name="projeto-6" src="./imagens/slider/EmBreve2.png" alt="" class="slide">              
+                    </div>
+                
+                    
+                    <div class="navegacaoProjetos">
+                        <div id="arrowPrev" class="arrow"></div>
+                        <div id="nomeProjeto" class="nomeProjeto"></div>
+                        <div id="arrowNext" class="arrow"></div>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <section id="tecnologias">
+                <div class="tecnologiasTexto">
+                <h1>Tecnologias Usadas Neste Site</h1>
+                </div>
+                <div id="flex-container" class="testimonials">
+                <div id="left-zone">
+                  <ul class="list">
+                    <li class="item">
+                      <input type="radio" id="radio_testimonial-1" name="basic_carousel" checked="checked" />
+                      <label class="label_testimonial-1" for="radio_testimonial-1">HTML</label>
+                      <div class="content-test content_testimonial-1">
+                        <span class="picto"></span>
+                        <h1>HTML</h1>
+                        <p>Toda a construção da página do Portfólio foi feito por meio da linguagem de marcação Html</p>
+                      </div>
+                    </li>
+                    <li class="item">
+                      <input type="radio" id="radio_testimonial-2" name="basic_carousel" />
+                      <label class="label_testimonial-2" for="radio_testimonial-2">CSS</label>
+                      <div class="content-test content_testimonial-2">
+                        <span class="picto"></span>
+                        <h1>CSS</h1>
+                        <p>O Css foi utilizado na apresentação visual e estilização da página do Portfólio</p>
+                        <br>
+                      </div>
+                    </li>
+                    <li class="item">
+                      <input type="radio" id="radio_testimonial-3" name="basic_carousel" />
+                      <label class="label_testimonial-3" for="radio_testimonial-3">JavaScript</label>
+                      <div class="content-test content_testimonial-3">
+                        <span class="picto"></span>
+                        <h1>JAVASCRIPT</h1>
+                        <p>O JavaScript foi utilizado para fazer a parte interativa e comportamento do site, o slider de projetos, o carrosel com a explicação de cada tecnologia e o popout do download do curriculum vitae</p>
+                      </div>
+                    </li>
+                    <li class="item">
+                      <input type="radio" id="radio_testimonial-4" name="basic_carousel" />
+                      <label class="label_testimonial-4" for="radio_testimonial-4">FIGMA</label>
+                      <div class="content-test content_testimonial-4">
+                        <span class="picto"></span>
+                        <h1>FIGMA</h1>
+                        <p>Ultizei o Figma para o montar todo o projeto, nele fiz a interface e o desing da página</p>
+                        <br>
+                      </div>
+                    </li>
+                    <li class="item">
+                        <input type="radio" id="radio_testimonial-5" name="basic_carousel"/>
+                        <label class="label_testimonial-5" for="radio_testimonial-5">PHOTOSHOP</label>
+                        <div class="content-test content_testimonial-5">
+                          <span class="picto"></span>
+                          <h1>PHOTOSHOP</h1>
+                          <p>Utilizei o Photoshop na confecção de todas as imagens utilizadas no sites e nas edições das mesmas</p>
+                        </div>
+                      </li>
+                  </ul>
+                </div>
+                <div id="right-zone"></div>
+                </div>
+            </section>
+    </div>
+  <footer id="contato">
+    <div class="contatoContainer">
+    <div class="contatoTexto">
+      <h1>Contato:</h1>
+      <p>Email: ga.paulettiegea@gmail.com</p>
+      <p>Celular: (15) 99612-3017</p>
+    </div>
+    <img src="./imagens/Logos/logoGP.png" alt="" id="contatoLogo">
+    <div class="contatoRedes">
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/gabriel-pauletti-egea-a47287261/"class="logoImgs"><img src="./imagens/Logos/linkedin.png" alt=""></a>
+        </li>
+        <li>
+          <a href="https://github.com/egeaPauletti"class="logoImgs"><img src="./imagens/Logos/github.png" alt=""></a>
+        </li>
+        <li>
+          <a href="https://wa.me/qr/C3GAJUTLRX5HM1"class="logoImgs"><img src="./imagens/Logos/whatsapp.png" alt=""></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/gpaulettiegea/"class="logoImgs"><img src="./imagens/Logos/instagram.png" alt=""></a>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </footer>
+    
+    <div class="linhaBaixa"></div>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="./js/popup.js"></script>
+        <script src="./js/scriptSlider.js"></script>
+        <script src="./js/scriptCarrossel.js"></script>
+        <script src="./js/delizador.js"></script>
+</body>
+</html>
